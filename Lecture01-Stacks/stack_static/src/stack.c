@@ -43,7 +43,7 @@ void display(Stack *stack){
     if(is_empty(stack)){
         printf("\n Pila esta vacía, no hay elementos que mostrar.");
     } else {
-        for (int i = 0; i < stack->top; i++){
+        for (int i = stack->top; i >= 0; i--){
             printf("\n%d", stack->array[i]);
         }
     }
