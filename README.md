@@ -19,5 +19,5 @@ Contenido
 4. Listas
    - [Lista Ligada Simple] (https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture04-List/singly_linked_list)
    - [Lista Ligada Circular Ordenada] (https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture04-List/sorted_circular_linked_list)
-   - [Lista Lidada Doble Ordenada]()
+   - [Lista Ligada Doble Ordenada](https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture04-List/doubly_linked_list)
 5. Ordenamiento y búsqueda
