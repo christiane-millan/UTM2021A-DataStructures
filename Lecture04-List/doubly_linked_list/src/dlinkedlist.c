@@ -41,6 +41,11 @@ void insert(Node **head, int item){
             int b = 0;
             while((aux->next != NULL) && (b == 0)){
                 if(aux->next->data > new_node->data){
+                    //Caso 4. después de un nodo dado (un nodo de referencia)
+                    aux->next->prev = new_node;
+                    new_node->next = aux->next;
+                    new_node->prev = aux;
+                    aux->next = new_node;
                     b = 1;
                 }
                 aux = aux->next;
@@ -49,12 +54,6 @@ void insert(Node **head, int item){
             if ( b == 0) {
                 aux->next = new_node;
                 new_node->prev = aux;
-            } else {
-                //Caso 4. después de un nodo dado (un nodo de referencia)
-                aux->next->prev = new_node;
-                new_node->next = aux->next;
-                new_node->prev = aux;
-                aux->next = new_node;
             }
         }
     }
@@ -94,16 +93,21 @@ int delete_node(Node **head, int item){
                     if(aux->next->next == NULL){
                         aux->next = NULL;
                         temp->prev = NULL;
+                        data = temp->data;
+                        free(temp);
+                        b = 1;
+                        return data;
                     } else {
                         // Caso 3
                         aux->next = temp->next;
                         temp->next->prev = aux;
                         temp->next = NULL;
                         temp->prev = NULL;
+                        data = temp->data;
+                        free(temp);
+                        b = 1;
+                        return data;
                     }
-                    data = temp->data;
-                    free(temp);
-                    b = 1;
                 }
                 aux = aux->next;
             }
