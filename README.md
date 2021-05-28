@@ -1,5 +1,10 @@
 # UTM2021A-DataStructures
 
+Christian Millán
+
+Universidad Tecnológica de la Mixteca
+Estructura de datos
+
 Contenido
 
 1. Pilas
@@ -21,3 +26,4 @@ Contenido
    - [Lista Ligada Circular Ordenada](https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture04-List/sorted_circular_linked_list)
    - [Lista Ligada Doble Ordenada](https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture04-List/doubly_linked_list)
 5. Ordenamiento y búsqueda
+   - [Algoitmos de odenamiento: insertion, selection, mergesort, bubblesort y quicksort]()
