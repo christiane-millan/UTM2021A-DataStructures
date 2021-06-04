@@ -2,7 +2,8 @@
 
 Christian Millán
 
-Universidad Tecnológica de la Mixteca
+## Universidad Tecnológica de la Mixteca
+
 Estructura de datos
 
 Contenido
@@ -26,4 +27,6 @@ Contenido
    - [Lista Ligada Circular Ordenada](https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture04-List/sorted_circular_linked_list)
    - [Lista Ligada Doble Ordenada](https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture04-List/doubly_linked_list)
 5. Ordenamiento y búsqueda
-   - [Algoitmos de odenamiento: insertion, selection, mergesort, bubblesort y quicksort]()
+   - [Algoritmos de ordenamiento: insertion, selection, mergesort, bubblesort y quicksort](https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture05-Sort/sort_algorithms)
+   - [Algoritmos de búsqueda]()
+
