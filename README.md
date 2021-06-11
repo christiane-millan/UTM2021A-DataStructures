@@ -29,4 +29,5 @@ Contenido
 5. Ordenamiento y búsqueda
    - [Algoritmos de ordenamiento: insertion, selection, mergesort, bubblesort y quicksort](https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture05-Sort/sort_algorithms)
    - [Algoritmos de búsqueda]()
-
+6. Árboles
+   - Árboles BST
