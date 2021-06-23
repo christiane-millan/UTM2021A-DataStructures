@@ -28,6 +28,7 @@ Contenido
    - [Lista Ligada Doble Ordenada](https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture04-List/doubly_linked_list)
 5. Ordenamiento y búsqueda
    - [Algoritmos de ordenamiento: insertion, selection, mergesort, bubblesort y quicksort](https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture05-Sort/sort_algorithms)
-   - [Algoritmos de búsqueda]()
+   - [Algoritmos de búsqueda](https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture05-Sort/search_algorithms)
 6. Árboles
-   - Árboles BST
+   - [Árboles BST](https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture06-Trees/binary_search_tree)
+   - [Árboles AVL](https://github.com/christiane-millan/UTM2021A-DataStructures/tree/main/Lecture06-Trees/avl_tree)
